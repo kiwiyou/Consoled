@@ -1,0 +1,4 @@
+name: Consoled
+main: style.kiwi.consoled.Consoled
+version: '1.0'
+api-version: '1.14'

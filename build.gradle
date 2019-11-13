@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'style.kiwi'
+version '1.0'
+
+final def BUKKIT_VERSION = '1.14.4-R0.1-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://hub.spigotmc.org/nexus/content/groups/public/'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'com.github.seeseemelk', name: 'MockBukkit-v1.14', version: '0.2.2-SNAPSHOT'
+    compile group: 'org.bukkit', name: 'bukkit', version: BUKKIT_VERSION
+}
