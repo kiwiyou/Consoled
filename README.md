@@ -19,6 +19,7 @@ Usage
 ### Writing commands.yml
 You can specify usages, permissions for commands.<br>
 _All properties are optional._
+
 | Property | Description |
 | :---: | --- |
 | `_usage` | Displayed when the command fails. (executor returns false)<br>Can inherit from the parent. |
